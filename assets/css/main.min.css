@@ -252,6 +252,12 @@ a:hover{
 .landing-icons .facebook:hover .social-svg{
     fill:#4267b2
 }
+.landing-icons .whatsapp:hover .circle{
+    animation:outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards,colorWhatsApp 1s linear forwards
+}
+.landing-icons .whatsapp:hover .social-svg{
+    fill:#25D366
+}
 @keyframes outWaveIn{
     to{
         stroke-dasharray:510;
@@ -308,6 +314,11 @@ a:hover{
 @keyframes colorInstagram{
     to{
         stroke:#833ab4
+    }
+}
+@keyframes colorWhatsApp{
+    to{
+        stroke:#25D366
     }
 }
 #skills{
